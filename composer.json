@@ -1,0 +1,25 @@
+
+{
+  "name": "sequelone/sonepackage",
+  "description": "Generic MODX service class and collection of utilities, used by the sequelone team, but also available for third party developers.",
+  "license": "MIT",
+  "keywords": ["modx", "sequelone", "sonepackage", "service"],
+  "homepage": "https://github.com/sequelone/sOnePackage",
+  "config": {
+    "vendor-dir": "core/components/sonepackage/vendor/"
+  },
+  "authors": [
+    {
+      "name": "the sequelone team",
+      "email": "support@sequelone.com"
+    }
+  ],
+  "require": {
+    "php": ">5.3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "sequelone\\sOnePackage\\": "core/components/sonepackage/src/"
+    }
+  }
+}
