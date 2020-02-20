@@ -2,8 +2,6 @@ sOnePackage contains common functionality that is shared between MODX packages d
 
 Packages that depend on sOnePackage include:
 
-- ContentBlocks
-- Redactor
-- MoreGallery
+- sOneLandingPage
 
 Other packages, including third party packages not developed by sequelone, may also depend on sOnePackage.
